@@ -1,0 +1,5 @@
+<view class="index-page">
+  <view style="height:100rpx"></view>
+  <x-row-picker options="{{options}}" value="{{currentValue}}" bindinput="typeChange" dropdown-top="100px" dropdown-height="360rpx"/>
+  <x-dropdown-block id="x-dropdown-block"/>
+</view>

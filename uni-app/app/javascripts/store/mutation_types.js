@@ -1,0 +1,30 @@
+export const SET_BID = 'SET_BID'
+export const SET_SKU = 'SET_SKU'
+export const SET_MODE = 'SET_MODE'
+export const SET_FLOATAD = 'SET_FLOATAD'
+export const SET_GROUPSPLICE = 'SET_GROUPSPLICE'
+export const SET_HEADDATA = 'SET_HEADDATA'
+export const SET_CATEGORYMODE = 'SET_CATEGORYMODE'
+export const REPLACE_SHOPCART = 'REPLACE_SHOPCART'
+export const SET_BASEGOODSDETAIL = 'SET_BASEGOODSDETAIL'
+
+export const SET_SHOPCART = 'SET_SHOPCART'                // 将传入goods的数量累加到购物车
+export const DELETE_CARTITEMS = 'DELETE_CARTITEMS'        // 删除符合传入数组的购物车项
+export const SET_SKU_INVENTORY = 'SET_SKU_INVENTORY'
+export const SET_SHOPCARTNUMBER = 'SET_SHOPCARTNUMBER'    // 将传入goods的数量设置为新的数量
+
+export const SET_SUBMITORDERINFO = 'SET_SUBMITORDERINFO'  // 设置提交订单的数据
+
+export const SET_USERPOSITION = 'SET_USERPOSITION'
+export const SET_ADDRESSLIST = 'SET_ADDRESSLIST'
+export const SET_ISSHARE = 'SET_ISSHARE'
+export const SET_SHAREGOODS = 'SET_SHAREGOODS'
+export const SET_LANDINGPAGE = 'SET_LANDINGPAGE'
+export const SET_AVAILABLEPOINT = 'SET_AVAILABLEPOINT'
+export const SET_CURRENTPAGE = 'SET_CURRENTPAGE'
+export const SET_SDKCONFIG = 'SET_SDKCONFIG'
+
+export const SET_HOMEGOODSLIST = 'SET_HOMEGOODSLIST'
+export const SET_MAIN2INFO = 'SET_MAIN2INFO'
+
+export const SET_GOODSLISTINFO = 'SET_GOODSLISTINFO'	//设置单个分类列表;

@@ -1,0 +1,46 @@
+@import "../variable";
+
+.goods-info {
+  .br;
+  background-color: #fff;
+  margin-bottom: 10px;
+  .goods-title {
+    line-height: 36px;
+    padding-left: 10px;
+    .f15;
+  }
+  .goods-list {
+    .f14;
+    padding-left: 10px;
+    .goods-item {
+      .li(43px);
+      &:not(:last-child) {
+        .border;
+      }
+      .left {
+        .ellipsis(190px);
+      }
+      .right {
+          span{
+              display:inline-block;
+              vertical-align:middle;
+          }
+        .number {
+          margin-right: 10px;
+        }
+        .payPrice{
+
+        }
+      }
+    }
+  }
+  .goods-next {
+    line-height: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    .f12;
+    .iconfont{
+        font-size: 12px;
+    }
+  }
+}

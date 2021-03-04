@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    function getInnerText(richText) {
+      const div = document.createElement('div')
+      div.innerHTML = richText
+      return div.innerText
+	}
+
+	console.log(getInnerText('<p>test</p>'))
+</script>
+</body>
+</html>

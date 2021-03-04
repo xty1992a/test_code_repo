@@ -1,0 +1,54 @@
+
+// ['red', 'gray', 'orange', 'blue', 'green', 'blown', ]
+@gradient: true;
+.red when (@gradient = false) {
+  background-color: #FE7749;
+}
+
+.gray when (@gradient = false) {
+  background-color: #C7C7C7;
+}
+
+.orange when (@gradient = false) {
+  background-color: #FF802A;
+}
+
+.blue when (@gradient = false) {
+  background-color: #3DADFD;
+}
+
+.green when (@gradient = false) {
+  background-color: #8BC355;
+}
+
+.blown when (@gradient = false) {
+  background-color: #D3A063;
+}
+
+.red when (@gradient) {
+  background-image: linear-gradient(to left top, #E88356, #E69859);
+}
+
+.gray when (@gradient) {
+  background-image: linear-gradient(to left top, #c7c7c7, #f7f7f7);
+}
+
+.orange when (@gradient) {
+  background-image: linear-gradient(to left top, #FF802A, #D67621);
+}
+
+.green when (@gradient) {
+  background-image: linear-gradient(to left top, #66C07B, #75C066);
+}
+
+.blue when (@gradient) {
+  background-image: linear-gradient(to left top, #51B8E3, #64C4EA);
+}
+
+.darkBlue when (@gradient) {
+  background-image: linear-gradient(to left top, #7386CF, #678BC8);
+}
+
+.blown when (@gradient) {
+  background-image: linear-gradient(to left top, #D3A063, #EBBA6E);
+}

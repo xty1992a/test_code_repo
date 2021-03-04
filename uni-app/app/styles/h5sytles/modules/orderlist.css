@@ -1,0 +1,53 @@
+.iconfont {
+  font-size: 16px;
+}
+.order-list {
+  font-size: 28px;
+  /*px*/
+  height: 100%;
+  position: relative;
+}
+.order-list header .menus {
+  height: 40px;
+  align-items: stretch;
+  background-color: #fff;
+}
+.order-list header .menus .menu {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  /*no*/
+  flex: 1;
+  line-height: 37px;
+  transition: .3s;
+}
+.order-list header .menus .menu.active {
+  color: #4080E8;
+  border-bottom: 3px solid #4080E8;
+}
+section {
+  position: absolute;
+  bottom: 50px;
+  top: 40px;
+  right: 0;
+  left: 0;
+}
+section .pages {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+.right-enter,
+.left-leave-to {
+  transform: translate3d(100%, 0, 0);
+}
+.right-enter-active,
+.right-leave-active,
+.left-enter-active,
+.left-leave-active {
+  transition: .3s;
+}
+.left-enter,
+.right-leave-to {
+  transform: translate3d(-100%, 0, 0);
+}

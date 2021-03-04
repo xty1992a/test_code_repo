@@ -1,0 +1,52 @@
+@import "../variable";
+
+.order-list {
+  .f14;
+  height: 100%;
+  position: relative;
+  header {
+    .menus {
+      height: 40px;
+      align-items: stretch;
+      background-color: #fff;
+      .menu {
+        text-align: center;
+        border-bottom: 1px solid #e5e5e5; /*no*/
+        flex: 1;
+        line-height: 37px;
+        transition: .3s;
+        &.active {
+          color: @activeC;
+          border-bottom: 3px solid @activeC;
+        }
+      }
+    }
+  }
+}
+
+section {
+  position: absolute;
+  bottom: 50px;
+  top: 40px;
+  right: 0;
+  left: 0;
+  .pages {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.right-enter, .left-leave-to {
+  transform: translate3d(100%, 0, 0);
+}
+
+.right-enter-active, .right-leave-active,
+.left-enter-active, .left-leave-active {
+  transition: .3s;
+}
+
+.left-enter, .right-leave-to {
+  transform: translate3d(-100%, 0, 0);
+}

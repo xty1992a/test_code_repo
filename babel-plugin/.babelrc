@@ -1,0 +1,11 @@
+{
+    "plugins": [
+        [
+            "./main/index.js", {
+                "maps": {
+                    "bad": "notGood"
+                }
+        }
+    ]
+    ]
+}

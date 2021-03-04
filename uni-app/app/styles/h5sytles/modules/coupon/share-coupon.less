@@ -1,0 +1,144 @@
+@import "../../variable";
+
+.coupon-share-detail {
+  min-height: 100%;
+  background: linear-gradient(#FC4140, #FC7540);
+  .banner {
+    height: 233px;
+    img {
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+  .content {
+    padding: 10px 10px 40px;
+    margin-bottom: -40px;
+    .layout-block {
+      .br(5px);
+      background-color: #fff;
+      margin-bottom: 10px;
+    }
+    .business {
+      text-align: center;
+      padding: 14px 0;
+      .logo {
+        .br(50%);
+        width: 40px;
+        height: 40px;
+        overflow: hidden;
+        margin: 0 auto 12px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .title {
+        .f18;
+        color: #252525;
+        margin-bottom: 10px;
+      }
+      .text {
+        .f12;
+        color: @priceC;
+      }
+    }
+    .coupon {
+      .bite(14px, #fc5440);
+      height: 108px;
+      padding: 0 20px;
+      .top {
+        .li(70px);
+        .border;
+        .left {
+          padding-right: 15px;
+          .price {
+            color: #FF4932;
+            &:before {
+              content: '￥';
+              .fz(40px);
+            }
+            .fz(72px);
+          }
+          .zj {
+            color: #FF4932;
+            &:before {
+              .fz(40px);
+            }
+            .fz(72px);
+          }
+        }
+        .right {
+          .full-column(40px);
+          flex: 1;
+          .title {
+            .f18;
+          }
+          .text {
+            .f15;
+            color: @grayC;
+          }
+        }
+      }
+      .bottom {
+        .f12;
+        .li(37px);
+        color: @grayC;
+        a {
+          color: @priceC;
+        }
+      }
+    }
+    .btn-wrap {
+      height: 48px;
+      margin-bottom: 10px;
+      button {
+        .f18;
+        .br(5px);
+      }
+    }
+    .group {
+      background-color: #FEF8DE;
+      padding-bottom: 20px;
+      .group-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        .text {
+          @type: code;
+          .fz(34px);
+          .decoration(@type, 10px, 6px, 6px, @priceC);
+        }
+      }
+      .member-list {
+        padding: 0 10px;
+        .member {
+          .li-card(60px);
+          .left {
+            .avatar {
+              .br(50%);
+              .img(40px, 40px);
+              overflow: hidden;
+              margin-right: 16px;
+              background-color: rgba(0, 0, 0, 0.1);
+            }
+          }
+          .right {
+            flex: 1;
+            .full-column(40px);
+            .title {
+              .f15;
+              .li(16px);
+              .text {
+                .ellipsis(180px);
+              }
+            }
+            .time {
+              .f12;
+              color: @grayC;
+            }
+          }
+        }
+      }
+    }
+  }
+}

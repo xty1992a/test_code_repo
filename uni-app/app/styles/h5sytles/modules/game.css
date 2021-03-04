@@ -1,0 +1,121 @@
+.iconfont {
+  font-size: 16px;
+}
+.text-group {
+  padding: 32px 10px 0;
+}
+.text-group .layout-block {
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  padding-left: 18px;
+  padding-bottom: 15px;
+}
+.text-group .layout-block .text-title {
+  display: flex;
+  height: 44px;
+  align-items: center;
+}
+.text-group .layout-block .text-title .iconfont {
+  border-radius: 50%;
+  color: #fff;
+  height: 17px;
+  width: 17px;
+  line-height: 17px;
+  margin-right: 8px;
+  text-align: center;
+}
+.text-group .layout-block .text-title .text {
+  font-size: 30px;
+  /*px*/
+  font-weight: bold;
+}
+.text-group .layout-block > li {
+  margin-bottom: 15px;
+}
+.text-group .present .text-title .iconfont {
+  background-image: linear-gradient(to bottom, #FFA304, #FF7404);
+}
+.text-group .present .present-list .present-item {
+  font-size: 28px;
+  /*px*/
+  height: 30px;
+  line-height: 30px;
+  display: flex;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-group .present .present-list .present-item .right {
+  width: 80px;
+  text-align: left;
+}
+.text-group .award .text-title .iconfont {
+  background-image: linear-gradient(to bottom, #F645EC, #FF2727);
+}
+.text-group .award .snap-wrap .award-item {
+  font-size: 28px;
+  /*px*/
+  height: 30px;
+  line-height: 30px;
+  display: flex;
+  padding-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.text-group .rule {
+  background-color: #FEEDD0;
+}
+.text-group .rule .rule-title {
+  font-size: 36px;
+  /*px*/
+  color: #D7261E;
+  text-align: center;
+  padding: 19px 18px 10px 0;
+}
+.text-group .rule .rule-title .dec-title {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 8px;
+  position: relative;
+  padding: 0 10px;
+}
+.text-group .rule .rule-title .dec-title:before,
+.text-group .rule .rule-title .dec-title:after {
+  top: 50%;
+  content: '';
+  position: absolute;
+}
+.text-group .rule .rule-title .dec-title:before {
+  left: 0;
+}
+.text-group .rule .rule-title .dec-title:after {
+  right: 0;
+}
+.text-group .rule .rule-title .dec-title:before,
+.text-group .rule .rule-title .dec-title:after {
+  height: 8px;
+  width: 8px;
+  background-color: #D7261E;
+}
+.text-group .rule .rule-title .dec-title:before {
+  transform: translate3d(-100%, -50%, 0) rotate(45deg);
+}
+.text-group .rule .rule-title .dec-title:after {
+  transform: translate3d(100%, -50%, 0) rotate(-45deg);
+}
+.text-group .rule .desc {
+  padding-right: 18px;
+  line-height: 1.8;
+  color: #D7261E;
+}
+.left-time {
+  font-size: 48px;
+  /*px*/
+  color: #fff;
+  text-align: center;
+}
+.game {
+  margin-bottom: -30px;
+  padding-bottom: 50px;
+}

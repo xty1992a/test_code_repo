@@ -1,0 +1,30 @@
+@import "../variable";
+
+.ex_click {
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    left: -10px;
+    top: -10px;
+  }
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  .left {
+    width: 100px;
+  }
+  .right {
+    width: 275px;
+    padding: 10px;
+  }
+}
+
+
+

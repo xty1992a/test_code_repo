@@ -1,0 +1,301 @@
+{
+    "parent": {
+        "type": "VariableDeclarator",
+        "start": 6,
+        "end": 18,
+        "loc": {
+            "start": {
+                "line": 1,
+                "column": 6
+            },
+            "end": {
+                "line": 1,
+                "column": 18
+            }
+        },
+        "id": {
+            "type": "Identifier",
+            "start": 6,
+            "end": 9,
+            "loc": {
+                "start": "[Circular start]",
+                "end": {
+                    "line": 1,
+                    "column": 9
+                },
+                "identifierName": "bad"
+            },
+            "name": "bad"
+        },
+        "init": {
+            "type": "StringLiteral",
+            "start": 12,
+            "end": 18,
+            "loc": {
+                "start": {
+                    "line": 1,
+                    "column": 12
+                },
+                "end": "[Circular end]"
+            },
+            "extra": {
+                "rawValue": "asdf",
+                "raw": "'asdf'"
+            },
+            "value": "asdf"
+        }
+    },
+    "hub": {
+        "file": {
+            "_map": {},
+            "declarations": {},
+            "path": {
+                "parent": {
+                    "type": "File",
+                    "start": 0,
+                    "end": 18,
+                    "loc": {
+                        "start": {
+                            "line": 1,
+                            "column": 0
+                        },
+                        "end": {
+                            "line": 1,
+                            "column": 18
+                        }
+                    },
+                    "errors": [],
+                    "program": {
+                        "type": "Program",
+                        "start": 0,
+                        "end": 18,
+                        "loc": {
+                            "start": "[Circular start]",
+                            "end": "[Circular end]"
+                        },
+                        "sourceType": "module",
+                        "interpreter": null,
+                        "body": [
+                            {
+                                "type": "VariableDeclaration",
+                                "start": 0,
+                                "end": 18,
+                                "loc": {
+                                    "start": {
+                                        "line": 1,
+                                        "column": 0
+                                    },
+                                    "end": "[Circular end]"
+                                },
+                                "declarations": [
+                                    "[Circular parent]"
+                                ],
+                                "kind": "const"
+                            }
+                        ],
+                        "directives": []
+                    },
+                    "comments": []
+                },
+                "hub": "[Circular hub]",
+                "contexts": [
+                    {
+                        "queue": [
+                            "[Circular path]"
+                        ],
+                        "scope": {
+                            "uid": 0,
+                            "block": "[Circular program]",
+                            "path": "[Circular path]",
+                            "labels": {},
+                            "references": {
+                                "bad": true
+                            },
+                            "bindings": {
+                                "bad": {
+                                    "identifier": "[Circular id]",
+                                    "scope": "[Circular scope]",
+                                    "path": {
+                                        "parent": "[Circular 0]",
+                                        "hub": "[Circular hub]",
+                                        "contexts": [
+                                            {
+                                                "queue": [
+                                                    "[Circular path]"
+                                                ],
+                                                "parentPath": {
+                                                    "parent": "[Circular program]",
+                                                    "hub": "[Circular hub]",
+                                                    "contexts": [
+                                                        {
+                                                            "queue": [
+                                                                "[Circular parentPath]"
+                                                            ],
+                                                            "parentPath": "[Circular path]",
+                                                            "scope": "[Circular scope]",
+                                                            "opts": {
+                                                                "Identifier": {
+                                                                    "enter": [
+                                                                        null
+                                                                    ]
+                                                                },
+                                                                "_exploded": {},
+                                                                "_verified": {},
+                                                                "BlockStatement": {
+                                                                    "exit": [
+                                                                        null
+                                                                    ]
+                                                                },
+                                                                "Program": {
+                                                                    "exit": [
+                                                                        null
+                                                                    ]
+                                                                },
+                                                                "TSModuleBlock": {
+                                                                    "exit": [
+                                                                        null
+                                                                    ]
+                                                                }
+                                                            },
+                                                            "priorityQueue": []
+                                                        }
+                                                    ],
+                                                    "data": null,
+                                                    "_traverseFlags": 0,
+                                                    "opts": "[Circular opts]",
+                                                    "skipKeys": null,
+                                                    "parentPath": "[Circular path]",
+                                                    "context": "[Circular 0]",
+                                                    "container": "[Circular body]",
+                                                    "listKey": "body",
+                                                    "key": 0,
+                                                    "node": "[Circular 0]",
+                                                    "scope": "[Circular scope]",
+                                                    "type": "VariableDeclaration"
+                                                },
+                                                "scope": "[Circular scope]",
+                                                "opts": "[Circular opts]",
+                                                "priorityQueue": []
+                                            }
+                                        ],
+                                        "data": null,
+                                        "_traverseFlags": 0,
+                                        "opts": "[Circular opts]",
+                                        "skipKeys": null,
+                                        "parentPath": "[Circular parentPath]",
+                                        "context": "[Circular 0]",
+                                        "container": "[Circular declarations]",
+                                        "listKey": "declarations",
+                                        "key": 0,
+                                        "node": "[Circular parent]",
+                                        "scope": "[Circular scope]",
+                                        "type": "VariableDeclarator"
+                                    },
+                                    "kind": "const",
+                                    "constantViolations": [],
+                                    "constant": true,
+                                    "referencePaths": [],
+                                    "referenced": false,
+                                    "references": 0,
+                                    "hasDeoptedValue": false,
+                                    "hasValue": false,
+                                    "value": null
+                                }
+                            },
+                            "globals": {},
+                            "uids": {},
+                            "data": {},
+                            "crawling": false
+                        },
+                        "opts": "[Circular opts]",
+                        "priorityQueue": []
+                    }
+                ],
+                "data": null,
+                "_traverseFlags": 0,
+                "opts": "[Circular opts]",
+                "skipKeys": null,
+                "parentPath": null,
+                "context": "[Circular 0]",
+                "container": "[Circular parent]",
+                "key": "program",
+                "node": "[Circular program]",
+                "scope": "[Circular scope]",
+                "type": "Program"
+            },
+            "ast": "[Circular parent]",
+            "metadata": {},
+            "code": "const bad = 'asdf'",
+            "inputMap": null,
+            "hub": "[Circular hub]",
+            "opts": {
+                "sourceFileName": "src/index.js",
+                "caller": {
+                    "name": "@babel/cli"
+                },
+                "filename": "E:\\test\\babel-plugin\\src\\index.js",
+                "babelrc": false,
+                "configFile": false,
+                "passPerPreset": false,
+                "envName": "development",
+                "cwd": "E:\\test\\babel-plugin",
+                "root": "E:\\test\\babel-plugin",
+                "plugins": [
+                    {
+                        "key": "@babel/plugin-simple",
+                        "visitor": {
+                            "Identifier": {
+                                "enter": [
+                                    null
+                                ]
+                            },
+                            "_exploded": true,
+                            "_verified": true
+                        },
+                        "options": {
+                            "maps": {
+                                "bad": "notGood"
+                            }
+                        }
+                    }
+                ],
+                "presets": [],
+                "parserOpts": {
+                    "sourceType": "module",
+                    "sourceFileName": "E:\\test\\babel-plugin\\src\\index.js",
+                    "plugins": []
+                },
+                "generatorOpts": {
+                    "filename": "E:\\test\\babel-plugin\\src\\index.js",
+                    "comments": true,
+                    "compact": "auto",
+                    "sourceMaps": false,
+                    "sourceFileName": "src/index.js"
+                }
+            },
+            "scope": "[Circular scope]"
+        }
+    },
+    "contexts": [
+        {
+            "queue": [
+                "[Circular root]"
+            ],
+            "parentPath": "[Circular path]",
+            "scope": "[Circular scope]",
+            "opts": "[Circular opts]",
+            "priorityQueue": []
+        }
+    ],
+    "data": null,
+    "_traverseFlags": 0,
+    "opts": "[Circular opts]",
+    "skipKeys": null,
+    "parentPath": "[Circular path]",
+    "context": "[Circular 0]",
+    "container": "[Circular parent]",
+    "key": "id",
+    "node": "[Circular id]",
+    "scope": "[Circular scope]",
+    "type": "Identifier"
+}

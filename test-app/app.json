@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "x-dropdown": "we-app/dropdown/index",
+    "x-dropdown-block": "we-app/dropdownBlock/index",
+    "x-row-picker": "we-app/rowPicker/index",
+    "x-dropdown-btn": "we-app/dropdownBtn/index"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

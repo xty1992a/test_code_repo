@@ -1,0 +1,19 @@
+.iconfont {
+  font-size: 16px;
+}
+.menu-item {
+  color: #999;
+  text-align: center;
+  position: relative;
+}
+.menu-item.active {
+  color: #4080E8;
+}
+.menu-item .iconfont {
+  font-size: 20px;
+}
+.menu-item .name {
+  padding-top: 3px;
+  font-size: 20px;
+  /*px*/
+}

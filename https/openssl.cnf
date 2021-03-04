@@ -1,0 +1,11 @@
+Config (3pm) - access Perl configuration information
+
+config (5ssl) - OpenSSL CONF library configuration files
+
+Config::Extensions (3pm) - hash lookup of which core extensions were built
+
+config.guess [config] (1) - guess the build system triplet
+
+config [openssl] (5ssl) - OpenSSL CONF library configuration files
+
+config.sub [config] (1) - validate and canonicalize a configuration triplet

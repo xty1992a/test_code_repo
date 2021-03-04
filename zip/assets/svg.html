@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <title>Title</title>
+  <style>
+    :root{
+    --size: 150px;
+    }
+    html{
+      background-color: #f7f7f7;
+      min-height: 100vh;
+    }
+  </style>
+</head>
+<body>
+<!--语法：A rx ry x-axis-rotation large-arc-flag sweep-flag x y
+        a 500 500 0              1              1          0 1000
+描述：
+rx,ry: 代表的就是长轴短轴;
+x-axis-rotation: x 轴的旋转角度, 顺时针为正。
+large-arc-flag[0,1]: 表示取大弧还是小弧。
+sweep-flag[0,1]: 取顺时针的弧，还是逆时针的弧长。参考点是以起始点开始的。
+x,y: 代表的是弧长的结束点。开始点就是上一个命令的终点;
+大部分的概念都很容易理解，需要注意其中的 large-arc-flag 和 sweep-flag -->
+<svg viewBox="0 0 1040 1040" style="width: var(--size);height: var(--size);">
+  <path d="m 520 520 m 0 -500 a 500 500 0 1 1 0 1000 a 500 500 0 1 1 0 -1000"
+        style="fill: none; stroke: rgb(255, 255, 255); stroke-width: 40px;"></path>
+  <path d="m 520 520 m 0 -500 a 500 500 0 1 1 0 1000 a 500 500 0 1 1 0 -1000"
+        stroke="#1989fa"
+        style="stroke: rgb(25, 137, 250); stroke-width: 41px; stroke-dasharray: 2198px, 3140px; fill: none; stroke-linecap: round;"></path>
+</svg>
+</body>
+</html>

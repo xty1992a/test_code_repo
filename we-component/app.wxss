@@ -1,0 +1,5 @@
+@import"./styles/icon.wxss";
+
+page {
+  font-size: 15px;
+}

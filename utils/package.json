@@ -1,0 +1,16 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "login": "npm login --registry=http://nexus.ops.svc.cluster.test/repository/npm-internal/",
+    "pub": "npm publish --registry=http://nexus.ops.svc.cluster.test/repository/npm-internal/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.8.17"
+  }
+}

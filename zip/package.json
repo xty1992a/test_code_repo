@@ -1,0 +1,21 @@
+{
+  "name": "zip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "zipper": "run.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "compressing": "^1.5.1",
+    "glob": "^7.1.6",
+    "minizlib": "^2.1.0"
+  }
+}

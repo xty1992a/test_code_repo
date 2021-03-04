@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <title>BACK</title>
+  <script type="text/javascript" src="./message.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+  const message = new Message();
+
+  async function main() {
+	// postMessage在彼端确切的收到事件时,才会resolve
+	const result = await message.postMessage('event-1', {hello: 'world'});
+	console.log('post message result');
+  }
+
+  main();
+</script>
+</body>
+</html>

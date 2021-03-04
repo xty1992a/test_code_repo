@@ -1,0 +1,5 @@
+<view class="ui-counter" style="font-size:{{size}}">
+  <view bindtap="sub" class="ui-counter_btn icon-minus css-icon {{value===min?'ui-counter_btn_disabled':''}}"></view>
+  <view class="ui-counter_value">{{value}}</view>
+  <view bindtap="add" class="ui-counter_btn icon-plus css-icon {{value===max?'ui-counter_btn_disabled':''}}"></view>
+</view>

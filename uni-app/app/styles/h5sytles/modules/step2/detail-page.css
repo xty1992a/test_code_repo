@@ -1,0 +1,31 @@
+.iconfont {
+  font-size: 16px;
+}
+.page-wrapper {
+  background-color: #fff;
+}
+.detail-page {
+  background-color: #f7f7f7;
+}
+.detail-page .price-panel {
+  background-color: #fff;
+  padding: 10px 0;
+  position: relative;
+}
+.detail-page .price-panel:before {
+  transform: scaleY(0.5);
+  transform-origin: 50% 0;
+  background-color: #f0f0f0;
+  pointer-events: none;
+  position: absolute;
+  height: 1px;
+  content: '';
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.detail-page .pay-panel,
+.detail-page .order-panel {
+  background-color: #fff;
+  margin-bottom: 10px;
+}

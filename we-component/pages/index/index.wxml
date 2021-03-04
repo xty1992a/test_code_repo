@@ -1,0 +1,13 @@
+<view class="intro">
+  <text>{{obj.a}}</text>+<text>{{obj.b}}</text>=
+  <text>{{total}}</text>
+  <button bindtap="add">add</button>
+  <button bindtap="sub">sub</button>
+
+  <counter value="{{obj.a}}" bindinput="changeValue" data-key="a"/>
+
+  <view class="flex-box">
+    <view>
+    </view>
+  </view>
+</view>

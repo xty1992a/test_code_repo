@@ -1,0 +1,23 @@
+.iconfont {
+  font-size: 16px;
+}
+.empty {
+  transform: translate3d(-50%, -80%, 0);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.empty img {
+  width: 140px;
+}
+.empty p {
+  font-size: 28px;
+  /*px*/
+  text-align: center;
+}
+.empty-enter {
+  transform: translate3d(-50%, -300%, 0);
+}
+.empty-enter-active {
+  transition: 0.3s cubic-bezier(0, 0, 0.74, 1.85) 0.6s;
+}

@@ -1,0 +1,23 @@
+@import "../variable";
+
+.empty {
+  img {
+    width: 140px;
+  }
+  p {
+    .f14;
+    text-align: center;
+  }
+  transform: translate3d(-50%, -80%, 0);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+.empty-enter {
+  transform: translate3d(-50%, -300%, 0);
+}
+
+.empty-enter-active {
+  transition: .3s cubic-bezier(0, 0, 0.74, 1.85) .6s;
+}
